@@ -1,0 +1,4 @@
+[404, 1, http://localhost:8080/error] [1a17676aed9d0a37,1a17676aed9d0a37,,false] - 2018-12-20 23:28:52.212 ERROR 5932 --- [nio-8080-exec-4] c.e.s.i.MyInterceptor                    : This is an error message
+[404, 1, http://localhost:8080/error] [1a17676aed9d0a37,1a17676aed9d0a37,,false] - 2018-12-20 23:28:52.229  WARN 5932 --- [nio-8080-exec-4] c.e.s.i.MyInterceptor                    : This is a afterCompletion message
+[404, 1, http://localhost:8080/error] [1a17676aed9d0a37,1a17676aed9d0a37,,false] - 2018-12-20 23:28:52.229  INFO 5932 --- [nio-8080-exec-4] c.e.s.i.MyInterceptor                    : Request URL::http://localhost:8080/error:: Time Taken=43
+[200, 1, http://localhost:8080/hello/client] [66eea795e123615b,66eea795e123615b,,false] - 2018-12-20 22:59:21.950  INFO 5932 --- [nio-8080-exec-1] c.e.s.i.MyInterceptor                    : Request URL::http://localhost:8080/hello/client:: Time Taken=71

@@ -1,0 +1,147 @@
+[,,,] - 2018-12-02 01:28:19.759  INFO ${pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7d8b8791] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 01:28:20.197  INFO ${pid} --- [           main] c.e.s.SleuthClientApplication            : No active profile set, falling back to default profiles: default
+[,,,] - 2018-12-02 01:28:20.824  INFO ${pid} --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=900df5fc-ebfe-33f1-b736-a6d32c1078f6
+[,,,] - 2018-12-02 01:28:21.059  INFO ${pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7d8b8791] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 01:28:21.511  INFO ${pid} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+[,,,] - 2018-12-02 01:28:21.527  INFO ${pid} --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 01:28:21.542  INFO ${pid} --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[,,,] - 2018-12-02 01:28:21.542  INFO ${pid} --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+[,,,] - 2018-12-02 01:28:21.542  INFO ${pid} --- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\housseine\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\housseine\AppData\Roaming\npm;C:\Users\housseine\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\housseine\AppData\Local\Android\sdk\platform-tools;c:\Python27\;c:\Python27\Scripts\;.]
+[,,,] - 2018-12-02 01:28:21.698  INFO ${pid} --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[,,,] - 2018-12-02 01:28:21.698  INFO ${pid} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1501 ms
+[,,,] - 2018-12-02 01:28:22.651  INFO ${pid} --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 01:28:23.482  INFO ${pid} --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 01:28:23.482  INFO ${pid} --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+[,,,] - 2018-12-02 01:28:23.497  INFO ${pid} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+[,,,] - 2018-12-02 01:28:23.513  INFO ${pid} --- [           main] c.e.s.SleuthClientApplication            : Started SleuthClientApplication in 4.661 seconds (JVM running for 5.837)
+[,,,] - 2018-12-02 01:28:56.820  INFO ${pid} --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[,,,] - 2018-12-02 01:28:56.821  INFO ${pid} --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[,,,] - 2018-12-02 01:28:56.836  INFO ${pid} --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 15 ms
+[3c16824c22750a16,3c16824c22750a16,,false] - 2018-12-02 01:28:56.862  INFO ${pid} --- [nio-8080-exec-1] c.e.s.c.MainController                   : before calling the server
+[3c16824c22750a16,3c16824c22750a16,,false] - 2018-12-02 01:28:57.017  INFO ${pid} --- [nio-8080-exec-1] c.e.s.c.MainController                   : after calling the server
+[de39b6feea8222b9,de39b6feea8222b9,,false] - 2018-12-02 01:36:50.987  INFO ${pid} --- [nio-8080-exec-4] c.e.s.c.MainController                   : before calling the server
+[de39b6feea8222b9,de39b6feea8222b9,,false] - 2018-12-02 01:36:51.003  INFO ${pid} --- [nio-8080-exec-4] c.e.s.c.MainController                   : after calling the server
+[,,,] - 2018-12-02 01:37:51.450  INFO ${pid} --- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[,,,] - 2018-12-02 01:37:51.450  INFO ${pid} --- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 01:37:51.450  INFO ${pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 01:37:51.622  INFO ${pid} --- [on(2)-127.0.0.1] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+[,,,] - 2018-12-02 01:37:51.622  INFO ${pid} --- [on(2)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+[,,,] - 2018-12-02 01:37:51.622  INFO ${pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 01:37:51.622  INFO ${pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:25:52.986  INFO %{pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$282eda35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:25:53.781  INFO %{pid} --- [           main] c.e.s.SleuthClientApplication            : No active profile set, falling back to default profiles: default
+[,,,] - 2018-12-02 10:25:57.870  INFO %{pid} --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=900df5fc-ebfe-33f1-b736-a6d32c1078f6
+[,,,] - 2018-12-02 10:25:58.710  INFO %{pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$282eda35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:26:00.404  INFO %{pid} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+[,,,] - 2018-12-02 10:26:00.551  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:00.642  INFO %{pid} --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[,,,] - 2018-12-02 10:26:00.643  INFO %{pid} --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+[,,,] - 2018-12-02 10:26:00.686  INFO %{pid} --- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\housseine\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\housseine\AppData\Roaming\npm;C:\Users\housseine\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\housseine\AppData\Local\Android\sdk\platform-tools;c:\Python27\;c:\Python27\Scripts\;.]
+[,,,] - 2018-12-02 10:26:01.177  INFO %{pid} --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[,,,] - 2018-12-02 10:26:01.178  INFO %{pid} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 7337 ms
+[,,,] - 2018-12-02 10:26:02.810  INFO %{pid} --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 10:26:04.279  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:04.292  INFO %{pid} --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+[,,,] - 2018-12-02 10:26:04.335  INFO %{pid} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+[,,,] - 2018-12-02 10:26:04.339  INFO %{pid} --- [           main] c.e.s.SleuthClientApplication            : Started SleuthClientApplication in 17.058 seconds (JVM running for 19.159)
+[,,,] - 2018-12-02 10:26:23.989  INFO %{pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$745d584a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:26:24.570  INFO %{pid} --- [           main] c.e.s.SleuthClientApplication            : No active profile set, falling back to default profiles: default
+[,,,] - 2018-12-02 10:26:25.175  INFO %{pid} --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=900df5fc-ebfe-33f1-b736-a6d32c1078f6
+[,,,] - 2018-12-02 10:26:25.431  INFO %{pid} --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$745d584a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:26:25.831  INFO %{pid} --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+[,,,] - 2018-12-02 10:26:25.853  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:25.866  INFO %{pid} --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[,,,] - 2018-12-02 10:26:25.867  INFO %{pid} --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+[,,,] - 2018-12-02 10:26:25.874  INFO %{pid} --- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\housseine\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\housseine\AppData\Roaming\npm;C:\Users\housseine\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\housseine\AppData\Local\Android\sdk\platform-tools;c:\Python27\;c:\Python27\Scripts\;.]
+[,,,] - 2018-12-02 10:26:26.009  INFO %{pid} --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[,,,] - 2018-12-02 10:26:26.009  INFO %{pid} --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1421 ms
+[,,,] - 2018-12-02 10:26:26.897  INFO %{pid} --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 10:26:27.742  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:27.753  INFO %{pid} --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+[,,,] - 2018-12-02 10:26:27.754 ERROR %{pid} --- [           main] o.a.c.u.LifecycleBase                    : Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.sleuthclient.SleuthClientApplication.main(SleuthClientApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998)
+	... 14 more
+[,,,] - 2018-12-02 10:26:27.761  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:27.761  INFO %{pid} --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+[,,,] - 2018-12-02 10:26:27.768  INFO %{pid} --- [           main] o.a.c.u.LifecycleBase                    : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[,,,] - 2018-12-02 10:26:27.769  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:27.769  INFO %{pid} --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:26:27.772  INFO %{pid} --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[,,,] - 2018-12-02 10:26:27.839 ERROR %{pid} --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[,,,] - 2018-12-02 10:26:27.842  INFO %{pid} --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 10:27:05.329  INFO %{pid} --- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[,,,] - 2018-12-02 10:27:05.335  INFO %{pid} --- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 10:27:05.337  INFO %{pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:27:05.529  INFO %{pid} --- [on(2)-127.0.0.1] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+[,,,] - 2018-12-02 10:27:05.539  INFO %{pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:27:05.543  INFO %{pid} --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:27:09.598  INFO 1300 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$42a7ab52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:27:10.104  INFO 1300 --- [           main] c.e.s.SleuthClientApplication            : No active profile set, falling back to default profiles: default
+[,,,] - 2018-12-02 10:27:10.803  INFO 1300 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=900df5fc-ebfe-33f1-b736-a6d32c1078f6
+[,,,] - 2018-12-02 10:27:11.045  INFO 1300 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$42a7ab52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[,,,] - 2018-12-02 10:27:11.466  INFO 1300 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+[,,,] - 2018-12-02 10:27:11.486  INFO 1300 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:27:11.498  INFO 1300 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[,,,] - 2018-12-02 10:27:11.499  INFO 1300 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+[,,,] - 2018-12-02 10:27:11.507  INFO 1300 --- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\housseine\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\housseine\AppData\Roaming\npm;C:\Users\housseine\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\housseine\AppData\Local\Android\sdk\platform-tools;c:\Python27\;c:\Python27\Scripts\;.]
+[,,,] - 2018-12-02 10:27:11.627  INFO 1300 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[,,,] - 2018-12-02 10:27:11.627  INFO 1300 --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1508 ms
+[,,,] - 2018-12-02 10:27:12.461  INFO 1300 --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 10:27:13.234  INFO 1300 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 10:27:13.245  INFO 1300 --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+[,,,] - 2018-12-02 10:27:13.259  INFO 1300 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+[,,,] - 2018-12-02 10:27:13.262  INFO 1300 --- [           main] c.e.s.SleuthClientApplication            : Started SleuthClientApplication in 4.593 seconds (JVM running for 5.832)
+[,,,] - 2018-12-02 10:28:55.749  INFO 1300 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[,,,] - 2018-12-02 10:28:55.749  INFO 1300 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[,,,] - 2018-12-02 10:28:55.803  INFO 1300 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 53 ms
+[53d6ddeee20ae3a1,53d6ddeee20ae3a1,,false] - 2018-12-02 10:28:55.937  INFO 1300 --- [nio-8080-exec-1] c.e.s.c.MainController                   : before calling the server
+[53d6ddeee20ae3a1,53d6ddeee20ae3a1,,false] - 2018-12-02 10:28:56.307  INFO 1300 --- [nio-8080-exec-1] c.e.s.c.MainController                   : after calling the server
+[,,,] - 2018-12-02 12:01:19.544  INFO 1300 --- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[,,,] - 2018-12-02 12:01:23.382  INFO 1300 --- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+[,,,] - 2018-12-02 12:01:23.664  INFO 1300 --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 12:01:24.118  INFO 1300 --- [on(2)-127.0.0.1] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+[,,,] - 2018-12-02 12:01:24.243  INFO 1300 --- [on(2)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+[,,,] - 2018-12-02 12:01:24.633  INFO 1300 --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[,,,] - 2018-12-02 12:01:24.805  INFO 1300 --- [on(2)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
