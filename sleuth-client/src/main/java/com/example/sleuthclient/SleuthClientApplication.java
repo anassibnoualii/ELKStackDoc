@@ -8,5 +8,6 @@ public class SleuthClientApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SleuthClientApplication.class, args);
+
 	}
 }

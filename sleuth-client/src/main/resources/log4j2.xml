@@ -2,7 +2,7 @@
 <Configuration status="WARN" monitorInterval="30">
     <Properties>
         <Property name="LOG_PATTERN">
-        %X{pathinfo} %logger{36} %X{appname} [%X{status}, %X{reqtime}, %X{httpreq}] [%X{X-B3-TraceId},%X{X-B3-SpanId},%X{X-B3-ParentSpanId},%X{X-Span-Export}] - %d{yyyy-MM-dd HH:mm:ss.SSS} %5p %pid --- [%15.15t] %-40.40c{1.} : %m%n%ex
+     %X{servicename} %X{port}  %X{ipaddr} %X{restmethod} %logger{36} %X{appname} [%X{status}, %X{reqtime}, %X{httpreq}] [%X{X-B3-TraceId},%X{X-B3-SpanId},%X{X-B3-ParentSpanId},%X{X-Span-Export}] - %d{yyyy-MM-dd HH:mm:ss.SSS} %5p %pid --- [%15.15t] %-40.40c{1.} : %m%n%ex
         </Property>
         
     </Properties>

@@ -8,12 +8,20 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 @Component
 public class MyInterceptor implements HandlerInterceptor {
+	private static String applicationName;
+
+	@Value("${spring.application.name}")
+	public void setApplicatioName(String value) {
+		this.applicationName = value;
+	}
+
 	private static final Logger logger = LoggerFactory.getLogger(MyInterceptor.class);
 
 	@Override
@@ -32,8 +40,14 @@ public class MyInterceptor implements HandlerInterceptor {
 			MDC.put("status", "" + response.getStatus());
 
 			MDC.put("httpreq", "" + request.getRequestURL().toString());
-			MDC.put("pathinfo", "" + request.getPathInfo());
-			MDC.put("appname", "" + "raiser");
+			MDC.put("restmethod", "" + request.getMethod());
+			MDC.put("ipaddr", "" + request.getRemoteAddr());
+			MDC.put("port", "" + request.getLocalPort());
+			MDC.put("servicename", "" + request.getRequestURI());
+			MDC.put("appname", "" + applicationName);
+			long timetaken = System.currentTimeMillis() - startTime;
+			MDC.put("reqtime", "" + timetaken);
+
 		} finally {
 
 		}
